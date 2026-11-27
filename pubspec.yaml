@@ -1,0 +1,42 @@
+name: ganagaseva
+description: Digital Seva Platform for Pandits — Seva • Shraddha • Sanskar
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  google_fonts: ^6.2.1
+  intl: ^0.20.2
+  flutter_secure_storage: ^9.2.4
+  video_player: ^2.9.5
+  camera: ^0.11.1
+  image_picker: ^1.1.2
+  permission_handler: ^11.4.0
+  ffmpeg_kit_flutter_new_min: ^3.6.7
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  lottie: ^3.3.1
+  fl_chart: ^0.70.2
+  flutter_animate: ^4.5.2
+  path_provider: ^2.1.5
+  connectivity_plus: ^6.1.3
+  share_plus: ^10.1.4
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
